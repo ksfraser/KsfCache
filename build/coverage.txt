@@ -1,0 +1,22 @@
+
+
+Code Coverage Report:      
+  2026-04-18 23:51:04      
+                           
+ Summary:                  
+  Classes: 20.00% (1/5)    
+  Methods: 45.45% (25/55)  
+  Lines:   51.43% (144/280)
+
+Ksfraser\KsfCache\CacheException
+  Methods:  ( 0/ 0)   Lines:  (  0/  0)
+Ksfraser\KsfCache\CacheFactory
+  Methods: 100.00% ( 6/ 6)   Lines: 100.00% ( 31/ 31)
+Ksfraser\KsfCache\CacheManager
+  Methods:  50.00% ( 8/16)   Lines:  88.06% ( 59/ 67)
+Ksfraser\KsfCache\DatabaseCache
+  Methods:   8.33% ( 1/12)   Lines:   5.19% (  4/ 77)
+Ksfraser\KsfCache\MemoryCache
+  Methods:  90.00% ( 9/10)   Lines:  95.65% ( 44/ 46)
+Ksfraser\KsfCache\RedisCache
+  Methods:   9.09% ( 1/11)   Lines:  10.17% (  6/ 59)

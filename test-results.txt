@@ -1,0 +1,25 @@
+PHPUnit 9.6.34 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.4.6
+Configuration: C:\Users\prote\Documents\software-devel\KsfCache\phpunit.xml
+
+E.........E....................................                   47 / 47 (100%)
+
+Time: 00:16.387, Memory: 6.00 MB
+
+There were 2 errors:
+
+1) Ksfraser\KsfCache\Tests\CacheFactoryTest::testCreateDefaultFallsBackToMemory
+InvalidArgumentException: PDO instance required for database cache
+
+C:\Users\prote\Documents\software-devel\KsfCache\src\Ksfraser\KsfCache\CacheFactory.php:105
+C:\Users\prote\Documents\software-devel\KsfCache\src\Ksfraser\KsfCache\CacheFactory.php:54
+C:\Users\prote\Documents\software-devel\KsfCache\tests\CacheFactoryTest.php:24
+
+2) Ksfraser\KsfCache\Tests\CacheManagerTest::testChainedOperations
+Error: Call to a member function enableBackend() on true
+
+C:\Users\prote\Documents\software-devel\KsfCache\tests\CacheManagerTest.php:189
+
+ERRORS!
+Tests: 47, Assertions: 74, Errors: 2.
